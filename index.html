@@ -198,10 +198,13 @@
             </iframe>
                 <div class="container_contacto">
                     <h4>Contactanos</h4>
-                    <form action=""><input type="text" placeholder="Ingese su nombre"></form>
-                    <form action=""><input type="text" placeholder="Ingrese su mail"></form>
-                    <form action=""><input class="mensaje" type="text" placeholder="Ingrese su mensaje"></form>
+                    <form id="my-form" class="my-form" action="https://formspree.io/f/xjvzelpv"method="POST">
+                    <input type="text" placeholder="Ingese su nombre" name="nombre" required>
+                    <input type="text" placeholder="Ingrese su mail" name="mail" required>
+                    <input class="mensaje" type="text" placeholder="Ingrese su mensaje" name="mensaje" required>
                     <button>Enviar</button>
+                    <p id="my-form-status"></p>
+                </form>
                 </div>
             </div>
         </section>
@@ -227,6 +230,8 @@
         </div>
 
     </footer>
+
+    <script src="./js/formulario.js"></script>
     
 </body>
 </html>
