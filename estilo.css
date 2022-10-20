@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f5eced;
+}
+
+#nav_bar{
+    position: sticky;
+    top: 0px;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d72324;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.container ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.secciones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.secciones li{
+    padding: 10px 10px 15px 15px;
+    font-size: 1.1em;
+}
+
+.secciones li a {
+    color: #f5eced;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+.logo a{
+    color: #f5eced;
+}
+
+.g10{
+    color: black;
+}
+
+#menu, #menu_check{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container_banner{
+    background-image: url(https://t2.uc.ltmcdn.com/es/posts/1/0/4/que_es_el_fitness_y_sus_beneficios_52401_orig.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+}
+
+.texto_banner{
+    justify-content: center;
+    height: 430px;
+    width: 320px;
+    text-align: center;
+    padding: 100px;
+}
+
+.texto_banner h1{
+    display: block;
+    color: #f5eced;
+    font-size: 5em;
+    padding: 20px;
+}
+
+.texto_banner p{
+    display: block;
+    padding: 15px 20px;
+    font-size: 1.3em;
+    color: #f5eced;
+
+}
+
+.texto_banner button{ 
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #f5eced;
+    color: #d72324;
+    border-style: hidden;
+    box-shadow: 10px rgb(0, 0, 0);
+}
+
+#sobre_nosotros .container{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 100px;
+}
+
+.nosotros_experiencia{
+    width: 420px;
+    height: 520px;
+    align-items: center;
+    padding: 50px;
+}
+
+.nosotros_experiencia h3{
+    font-size: 1.7em;
+    padding: 15px;
+    color: #f5eced;
+
+}
+.nosotros_experiencia p{
+    font-size: 1.2em;
+    padding: 15px;
+    color: #f5eced;
+    justify-content: left;
+}
+
+.nosotros_experiencia button{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #f5eced;
+    color: #d72324;
+    border-style: hidden;
+    box-shadow: 10px rgb(0, 0, 0);
+}
+
+.nosotros_entrenadores{
+    width: 320px;
+    height: 420px;   
+}
+
+.nosotros_entrenadores img{
+    height: 100%;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+#entrenadores .container{
+    background-color: #f5eced;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+#entrenadores h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #f5eced;
+    margin-top: 20px;
+
+}
+
+.container_entrenadores{
+    width: 320px;
+    height: 520px;
+    justify-content: center;
+    margin: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 11px 11px 12px 0px rgba(0,0,0,0.75);
+}
+
+.container_entrenadores img{
+    width: 320px;
+    margin-top: 40px;
+}
+
+.container_entrenadores p{
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+#clases .container{
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+#clases h3{
+    background-color: rgb(26, 25, 25);
+    color: #f5eced;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#clases p{
+    color: #f5eced;
+    padding: 5px;
+}
+
+.container_clases{
+    width: 320px;
+    height: 420px;
+    justify-content: center;
+    margin: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 1px rgba(255,255,255,0.75);
+
+}
+
+.container_clases img{
+    width: 320px;
+}
+
+.container_clases h4{
+    font-size: 1.3em;
+    color: #f5eced;
+}
+
+.horario{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+
+}
+
+@media only screen and (max-width: 700px){
+    #nav_bar .container{
+        display: flex;
+        place-content: space-between;
+    }
+
+    #menu_check:not(:checked) ~ nav{
+        display: none;
+    }
+
+    #menu_check:checked ~ nav{
+        display: block;
+    }
+
+    #menu{
+        display: block;
+        color: #f5eced;
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 2px solid #f5eced;
+        border-radius: 0.3em;
+        position: absolute;
+        right: 0.3em;
+        top: 0.15em;
+        z-index: 9999;
+    }
+
+    #menu_cerrar{
+        display: none;
+    }
+
+    #menu_check:checked ~ label #menu_abrir{
+        display: none;
+    }
+
+    #menu_check:checked ~ label #menu_cerrar{
+        display: block;
+    }
+
+    #nav_bar .container nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 40%;
+        background-color: black;
+        padding-top: 0.5em;
+        padding-right: 1.5em;
+        color: #f5eced;
+        font-size: 1.4em;
+        padding-top: 10px;
+        opacity: 0.8;
+    }
+
+    #nav_bar .container ul{
+        display: inline-block;
+    }
+
+    #nav_bar .container nav ul a{
+        color: #f5eced;
+        background-color: black;   
+    }
+
+    #nav_bar .container nav ul, #nav_bar .container nav ul li{
+        display: block;
+        text-align: right;
+        background-color: black;
+
+    }
+
+    #sobre_nosotros .container{
+        padding-top: 20px;
+    }
+
+    .nosotros_experiencia{
+        height: 100%;
+        padding-top: 0px;
+    }
+    
+    .nosotros_entrenadores{
+        display: none;
+    }
+}
