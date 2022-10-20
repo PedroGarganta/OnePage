@@ -213,39 +213,159 @@ a{
     background-color: rgb(26, 25, 25);
     color: #f5eced;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
-}
-
-#clases p{
-    color: #f5eced;
-    padding: 5px;
+    padding: 15px;
 }
 
 .container_clases{
-    width: 320px;
-    height: 420px;
+    width: 330px;
+    height: 220px;
+    display: flex;
     justify-content: center;
     margin: 40px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 0px 12px 1px rgba(255,255,255,0.75);
-
+    background-color: #333;
+    padding: 20px;
 }
 
-.container_clases img{
-    width: 320px;
+.fondo_blanco{
+    background-color: #f5eced;
+    padding: 10px;
+    border-radius: 10px;
 }
+
+.descripcion_clases{
+    color: #333;
+    padding: 10px;
+}
+
 
 .container_clases h4{
     font-size: 1.3em;
-    color: #f5eced;
+    color: #d72324;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .horario{
     font-weight: bold;
     font-size: 1.3em;
+    color: #d72324;
+    padding: 15px;
 }
+
+#precios .container{
+    background-color: #d72324;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+.container_precios{
+    width: 330px;
+    height: 520px;
+    justify-content: center;
+    margin: 40px;
+    text-align: center;
+    background-color: #f5eced;
+}
+
+.container_precios2{
+    width: 330px;
+    height: 520px;
+    justify-content: center;
+    margin: 40px;
+    text-align: center;
+    background-color: black;
+}
+
+.container_precios2 h3{
+    color: #f5eced;
+}
+
+.container_precios h3, .container_precios2 h3{
+    padding: 15px;
+    font-size: 1.7em;
+}
+
+.container_precios p{
+    background-color: black;
+    color: #f5eced;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 1.6em;
+}
+
+.container_precios2 p{
+    background-color: #f5eced;
+    color: black;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+}
+
+.container_precios ul, .container_precios2 ul{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.container_precios ul li, .container_precios2 ul li{
+    padding: 7px;
+    font-size: 1.2em;
+}
+
+.container_precios2 ul li{
+    color: #f5eced;
+}
+
+#contacto .container{
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container_contacto{
+    width: 600px;
+    height: 450px;
+    background-color: #f5eced;
+}
+
+.container_contacto h4{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .mensaje{
+    height: 150px;
+  }
+
+
+
+
+
+
+
 
 
 
