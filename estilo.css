@@ -5,6 +5,7 @@
 
 body{
     background-color: #f5eced;
+    font-family: Roboto, sans-serif;
 }
 
 #nav_bar{
@@ -185,12 +186,11 @@ a{
     justify-content: center;
     margin: 40px;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 11px 11px 12px 0px rgba(0,0,0,0.75);
 }
 
 .container_entrenadores img{
     width: 320px;
+    height: 320px;
     margin-top: 40px;
 }
 
@@ -226,7 +226,6 @@ a{
     margin: 40px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0px 0px 12px 1px rgba(255,255,255,0.75);
     background-color: #333;
     padding: 20px;
 }
@@ -324,6 +323,28 @@ a{
     color: #f5eced;
 }
 
+.container_precios button{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    color: black;
+}
+
+.container_precios2 button{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    color: black;
+}
+
+.container_precios button:hover {
+    box-shadow: 0 12px 16px 0 rgba(19,18,18,0.5), 0 17px 50px 0 rgba(19, 18, 18, 0.3);
+  }
+
+  .container_precios2 button:hover {
+    box-shadow: 0 0px 16px 0 rgba(226, 223, 223, 0.5), 0 0px 20px 0 rgba(226, 223, 223, 0.3);
+  }
+
 #contacto .container{
     background-color: #333;
     display: flex;
@@ -358,6 +379,10 @@ input[type=text] {
 
   .mensaje{
     height: 150px;
+  }
+
+  .container_contacto button{
+    padding: 5px;
   }
 
 
