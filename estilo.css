@@ -409,7 +409,7 @@ input[type=text] {
 
   /* Animacion Logo de la pagina */
   .slidein {
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-name: slidein;
   }
   
