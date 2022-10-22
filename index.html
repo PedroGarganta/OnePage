@@ -13,7 +13,7 @@
 <body>
     <header id="nav_bar">
         <div class="container">
-            <p class="logo"><a href="#">Gimnasio<span class="g10">G10</span></a></p>
+            <p class="logo slidein"><a href="#">Gimnasio<span class="g10">G10</span></a></p>
             
             <input type="checkbox" id="menu_check">
             <label id="menu" for="menu_check">
@@ -22,7 +22,7 @@
             </label>
 
             <nav>
-                <ul class="secciones">
+                <ul class="secciones slidein">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#sobre_nosotros">Sobre nosotros</a></li>
                     <li><a href="#entrenadores">Entrenadores</a></li>
@@ -39,7 +39,7 @@
                 <div class="texto_banner">
                     <h1>Never Give Up</h1>
                     <p>The best fitnes</p>
-                    <button>Unirse</button>
+                    <a href="#precios"><button>Unirse</button></a>
                 </div>
             </div>
         </section>
@@ -50,7 +50,7 @@
                     <h3>15 años de experiencia</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis provident deleniti itaque ratione porro veniam quibusdam error pariatur labore incidunt, corrupti mollitia dolor placeat, non quo! Blanditiis quae consectetur voluptas.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi velit accusantium laborum vero quasi eos provident commodi sint veniam. Cumque tempore quos voluptatibus ipsa, expedita sapiente reprehenderit libero natus.</p>
-                    <button>Unirse</button>
+                    <a href="#precios"><button>Unirse</button></a>
                 </div>
                 <div class="nosotros_entrenadores">
                     <img src="https://demo.awaikenthemes.com/html-preview/gym-fitness-html5-one-page-template/images/trainer-about.png" alt="">
@@ -59,7 +59,7 @@
         </section>
 
         <section id="entrenadores">
-            <h3>Entrenadores</h3>
+            <h3>Nuestros entrenadores</h3>
             <div class="container">
                 <div class="container_entrenadores">
                     <img src="./imagenes/Entrenador1.jpg" alt="Entrenador 1">
@@ -200,7 +200,7 @@
                     <h4>Contactanos</h4>
                     <form id="my-form" class="my-form" action="https://formspree.io/f/xjvzelpv"method="POST">
                     <input type="text" placeholder="Ingese su nombre" name="nombre" required>
-                    <input type="text" placeholder="Ingrese su mail" name="mail" required>
+                    <input type="email" placeholder="Ingrese su mail" name="mail" required>
                     <input class="mensaje" type="text" placeholder="Ingrese su mensaje" name="mensaje" required>
                     <button>Enviar</button>
                     <p id="my-form-status"></p>
@@ -208,11 +208,19 @@
                 </div>
             </div>
         </section>
+        <!-- SECCION EN CONSTRUCCION -->
+        <!-- <section class="ejercicios"> -->
+            <!-- <div class="ejercicios" id="container"> -->
+                <!-- <form> -->
+                    <!-- <input type="text" id="musculos"> -->
+                <!-- </form> -->
+            <!-- </div> -->
+        <!-- </section> -->
     </main>
     <footer id="footer">
         <div class="container">
             <p>Sitio web con propositos educativos <br> 
-                No posse los derechos para ninguna de las imagenes</p>
+                No posee los derechos para ninguna de las imagenes</p>
             <div class="redes_sociales">
                 <a href=""><img src="./imagenes/facebook.png" alt=""></a>
                 <a href=""><img src="./imagenes/instagram.png" alt=""></a>
@@ -223,6 +231,7 @@
     </footer>
 
     <script src="./js/formulario.js"></script>
+    <script src="./js/musculos.js" type="module"></script>
     
 </body>
 </html>
